@@ -163,8 +163,8 @@ body.portrait .rotate-warn{display:flex !important;}
     <div class="tagline">Survive Through Chemistry</div>
     <div class="menu-list">
       <button class="btn primary" onclick="Nav.go('setup');Game.mode='create'">Start Game</button>
-      <button class="btn" onclick="Nav.go('room');Game.roomMode='join'">Join Room</button>
-      <button class="btn" onclick="Nav.go('room');Game.roomMode='create'">Create Room</button>
+      <button class="btn" onclick="Game.roomMode='join';Nav.go('room')"</button>
+      <button class="btn" onclick="<button class="btn" onclick="Game.roomMode='join';Nav.go('room')">Mode='create';Nav.go('room')"</button>
       <button class="btn ghost" onclick="Tutorial.open(true)">Tutorial</button>
       <button class="btn ghost" onclick="Leaderboard.render();Nav.go('leaderboard')">Leaderboard</button>
       <button class="btn ghost" onclick="UI.toast('Pengaturan audio ada di ikon 🔊 dalam game')">Settings</button>
